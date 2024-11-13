@@ -1,12 +1,16 @@
 package com.vmsbackend.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.vmsbackend.entity.User;
-import org.apache.ibatis.annotations.Mapper;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
-import java.util.List;
-
-@Mapper
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author ECNUqhx
+ * @since 2024-11-14
+ */
 public interface UserMapper extends BaseMapper<User> {
-    List<User> listAll();
+
 }
