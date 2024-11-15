@@ -3,12 +3,15 @@ package com.vmsbackend.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.vmsbackend.common.QueryPageParam;
+import com.vmsbackend.common.Result;
 import com.vmsbackend.entity.User;
 import com.vmsbackend.mapper.UserMapper;
 import com.vmsbackend.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -59,14 +62,17 @@ public class UserController {
 
     // 查询（模糊、匹配）
     @PostMapping("/listP")
-    public List<User> listP(@RequestBody User user){
+    public Result listP(@RequestBody User user){
         LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-        wrapper.like(User::getName, user.getName());
-        return userService.list(wrapper);
+        if(StringUtils.isNotBlank(user.getName())){
+            wrapper.like(User::getName, user.getName());
+        }
+
+        return Result.succeed(userService.list(wrapper));
     }
 
     @PostMapping("/query")
-    public void listP(@RequestBody QueryPageParam query){
+    public Result listP(@RequestBody QueryPageParam query){
         System.out.println(query);
 
         HashMap param = query.getParam();
@@ -82,6 +88,6 @@ public class UserController {
         IPage<User> userIPage =  userService.page(page, wrapper);
         System.out.println(userIPage.getTotal());
 
-
+        return Result.succeed(userIPage);
     }
 }
