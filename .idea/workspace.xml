@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2488fbb-80fe-49da-bad1-93b0f9ce9fb3" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/assets/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Aside.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/MainBody.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/QueryPageParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/QueryPageParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/components/Aside.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/components/Index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +115,7 @@
       <workItem from="1731583869845" duration="16000" />
       <workItem from="1731595482986" duration="2811000" />
       <workItem from="1731602391615" duration="131000" />
-      <workItem from="1731644462207" duration="5147000" />
+      <workItem from="1731644462207" duration="6765000" />
     </task>
     <servers />
   </component>
