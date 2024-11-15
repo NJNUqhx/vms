@@ -4,36 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2488fbb-80fe-49da-bad1-93b0f9ce9fb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_spring4all_spring_boot_starter_swagger_1_5_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
+    <list default="true" id="d2488fbb-80fe-49da-bad1-93b0f9ce9fb3" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/vms-frontend/src/assets/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Aside.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/MainBody.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/QueryPageParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/QueryPageParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +32,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -73,12 +62,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.editor",
     "spring.configuration.checksum": "dcc17889f34325971918eb2b73911b36",
     "vue.rearranger.settings.migration": "true"
   },
@@ -88,7 +78,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.CodeGenerator">
+  <component name="RunManager" selected="Spring Boot.VmsBackendApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vmsbackend.common.CodeGenerator" />
       <module name="vms-backend" />
@@ -117,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.CodeGenerator" />
         <item itemvalue="Spring Boot.VmsBackendApplication" />
+        <item itemvalue="应用程序.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +122,12 @@
       <updated>1731502136181</updated>
       <workItem from="1731502138075" duration="3403000" />
       <workItem from="1731511541130" duration="1765000" />
-      <workItem from="1731513329953" duration="1280000" />
+      <workItem from="1731513329953" duration="4055000" />
+      <workItem from="1731565134257" duration="201000" />
+      <workItem from="1731583869845" duration="16000" />
+      <workItem from="1731595482986" duration="2811000" />
+      <workItem from="1731602391615" duration="131000" />
+      <workItem from="1731644462207" duration="5147000" />
     </task>
     <servers />
   </component>
