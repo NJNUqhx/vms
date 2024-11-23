@@ -3,7 +3,6 @@ package com.vmsbackend.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
-import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -16,7 +15,7 @@ import lombok.EqualsAndHashCode;
  * </p>
  *
  * @author ECNUqhx
- * @since 2024-11-21
+ * @since 2024-11-23
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -30,22 +29,19 @@ public class Record implements Serializable {
     private Integer id;
 
     @ApiModelProperty(value = "货品id")
-    private Integer goods;
+    private Integer goodsId;
 
     @ApiModelProperty(value = "取货人/补货人")
-    @TableField("userId")
-    private Integer userid;
+    private Integer userId;
 
     @ApiModelProperty(value = "操作人id")
-    @TableField("adminId")
-    private Integer adminid;
+    private Integer adminId;
 
     @ApiModelProperty(value = "数量")
     private Integer count;
 
     @ApiModelProperty(value = "操作时间")
-    @TableField("createTime")
-    private LocalDateTime createtime;
+    private LocalDateTime createTime;
 
     @ApiModelProperty(value = "备注")
     private String remark;

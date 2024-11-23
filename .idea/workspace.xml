@@ -5,59 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2488fbb-80fe-49da-bad1-93b0f9ce9fb3" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/GoodstypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/StorageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/entity/Goodstype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/entity/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/entity/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/GoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/GoodstypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/StorageMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/GoodstypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/impl/GoodstypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/impl/StorageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/resources/mapper/GoodstypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/DateUtil.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/admin/AdminManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/goods/GoodsManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/goodstype/GoodstypeManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/storage/StorageManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/user/UserManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vms-frontend/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/entity/RecordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vms-frontend/src/components/record/RecordManage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/42f81658-ad57-4f6e-b203-1903fe93231d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/42f81658-ad57-4f6e-b203-1903fe93231d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/QHX.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/QHX.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/QueryPageParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/common/QueryPageParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/RecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/controller/RecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/entity/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/entity/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/RecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/mapper/RecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/RecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/impl/RecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/java/com/vmsbackend/service/impl/RecordServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vms-backend/src/main/resources/db/SQL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/resources/db/SQL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/components/Aside.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/components/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vms-backend/src/main/resources/mapper/RecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vms-backend/src/main/resources/mapper/RecordMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vms-frontend/src/components/MainBody.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/components/MainBody.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vms-frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vms-frontend/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,44 +50,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/springboot-vue-vms/vms-frontend/src/components/goods&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dcc17889f34325971918eb2b73911b36&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\IDEA_install\\IntelliJ IDEA 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/GitHub/springboot-vue-vms/vms-frontend/src/components/record",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "spring.configuration.checksum": "dcc17889f34325971918eb2b73911b36",
+    "ts.external.directory.path": "D:\\IDEA_install\\IntelliJ IDEA 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\springboot-vue-vms\vms-frontend\src\components\record" />
       <recent name="D:\GitHub\springboot-vue-vms\vms-frontend\src\components\goods" />
       <recent name="D:\GitHub\springboot-vue-vms\vms-frontend\src\components\goodstype" />
       <recent name="D:\GitHub\springboot-vue-vms\vms-frontend\src\components\storage" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.CodeGenerator">
+  <component name="RunManager" selected="Spring Boot.VmsBackendApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vmsbackend.common.CodeGenerator" />
       <module name="vms-backend" />
@@ -204,8 +167,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.CodeGenerator" />
         <item itemvalue="Spring Boot.VmsBackendApplication" />
+        <item itemvalue="应用程序.CodeGenerator" />
         <item itemvalue="JUnit.VmsBackendApplicationTests.lab1" />
         <item itemvalue="JUnit.TestThread.lab1" />
       </list>
@@ -251,6 +214,7 @@
       <workItem from="1732097306569" duration="10405000" />
       <workItem from="1732112444092" duration="9000" />
       <workItem from="1732187880640" duration="2126000" />
+      <workItem from="1732361343059" duration="2749000" />
     </task>
     <servers />
   </component>

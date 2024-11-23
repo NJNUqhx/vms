@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author ECNUqhx
- * @since 2024-11-21
+ * @since 2024-11-23
  */
 @Service
 public class RecordServiceImpl extends ServiceImpl<RecordMapper, Record> implements RecordService {

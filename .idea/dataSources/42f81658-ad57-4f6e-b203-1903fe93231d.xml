@@ -1078,7 +1078,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
     <column id="312" parent="306" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>4</AutoIncrement>
       <Comment>主键</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
@@ -1123,7 +1123,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="320" parent="307" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>3</AutoIncrement>
       <Comment>主键</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
@@ -1210,18 +1210,18 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="337" parent="309" name="goods">
+    <column id="337" parent="309" name="goods_id">
       <Comment>货品id</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="338" parent="309" name="userId">
+    <column id="338" parent="309" name="user_id">
       <Comment>取货人/补货人</Comment>
       <DataType>int|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="339" parent="309" name="adminId">
+    <column id="339" parent="309" name="admin_id">
       <Comment>操作人id</Comment>
       <DataType>int|0s</DataType>
       <Position>4</Position>
@@ -1231,7 +1231,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <DataType>int|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="341" parent="309" name="createTime">
+    <column id="341" parent="309" name="create_time">
       <Comment>操作时间</Comment>
       <DataType>datetime|0s</DataType>
       <Position>6</Position>
@@ -1252,7 +1252,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="345" parent="310" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>3</AutoIncrement>
       <Comment>主键</Comment>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>

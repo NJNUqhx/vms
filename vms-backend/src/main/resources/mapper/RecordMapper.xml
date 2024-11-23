@@ -5,11 +5,11 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.vmsbackend.entity.Record">
         <id column="id" property="id" />
-        <result column="goods" property="goods" />
-        <result column="userId" property="userid" />
+        <result column="goods_id" property="goodsId" />
+        <result column="user_id" property="userId" />
         <result column="admin_id" property="adminId" />
         <result column="count" property="count" />
-        <result column="createtime" property="createtime" />
+        <result column="create_time" property="createTime" />
         <result column="remark" property="remark" />
     </resultMap>
 
@@ -18,4 +18,8 @@
         id, goods, userId, admin_id, count, createtime, remark
     </sql>
 
+    <select id="getRecordWithDetails" resultType="com.vmsbackend.entity.RecordDTO">
+    </select>
 </mapper>
+
+

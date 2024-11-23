@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author ECNUqhx
- * @since 2024-11-21
+ * @since 2024-11-23
  */
 public interface RecordService extends IService<Record> {
 
